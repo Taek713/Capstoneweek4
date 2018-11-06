@@ -1,0 +1,37 @@
+.class {
+	background-color: red; 
+	border-radius: 1000px
+	font-family: 
+}
+
+div {
+   border: 2px solid black;
+   margin: 8px;
+   height: 2em;
+   width: 2em;
+   text-align: center;
+}
+
+.button {
+  display:block;
+  border-radius: 8px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  width: auto;
+  transition: all 0.5s;
+}
+
+
+#cart {
+  padding: 5px;
+  background-color: skyblue;
+  width: auto;
+}
+
+#total {
+  padding: 5px;
+  background-color: #dc1123;
+  width: auto;
+}

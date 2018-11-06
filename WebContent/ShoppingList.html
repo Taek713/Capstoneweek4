@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tae's Grocery Store!</title>
+</head>
+<body>
+
+<h1 class = "title" > Welcome to Tae's Grocery Store!</h1>
+
+  <div class = "cool" >
+    <p  id="getInventory">
+      Breakfast Bars - $3.99
+      <br>
+      <!-- using arrays to store cart item and price -->
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[0]); addToTotal(price[0])">
+      <br><br>
+      Banana Milk - $1.79
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[1]); addToTotal(price[1])">
+      <br><br>
+      Spicy Ramen - $1.99 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[2]); addToTotal(price[2])">
+      <br><br>
+      Regular Ramen - $12.79
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[3]); addToTotal(price[3])">
+      <br><br>
+      Kimchi Dumplings - $10.95
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[4]); addToTotal(price[4])">
+      <br><br>
+      Kalbi - $15.99 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[5]); addToTotal(price[5])">
+      <br><br>
+      Hot Fries  - $1.89 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[6]); addToTotal(price[6])">
+      <br><br>
+      Kimchi - $7.99 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[7]); addToTotal(price[7])">
+      <br><br>
+      Ice Cream(Any Flavor) - $5.99 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[8]); addToTotal(price[8])">
+      <br><br>
+      Frozen Pizza Bites - $8.79 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[9]); addToTotal(price[9])">
+      <br><br>
+      Water Case - $4.99 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[10]); addToTotal(price[10])">
+      <br><br>
+      Ramune(Any Flavor) - $1.99 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[11]); addToTotal(price[11])">
+      <br><br>
+      High-Chews - $1.29 
+      <br>
+      <input name="addToCart" type="button" value="Add" class="button" onclick="addToCart(inventory[12]); addToTotal(price[12])">
+     </p>
+    </div> 
+    
+  <div id="cart">
+    <p> You added: </p>
+    <p id="cartbox"></p>
+    <br>
+      <input name="removeFromCart" type="button" value="Remove" class="button" onclick="removeFromCart(inventory[1]); removeFromTotal(price[1])">
+      <br><br>
+  </div>
+    
+    <div id="cart">
+    <p> You removed: </p>
+    <p id="cartbox"></p>
+  </div>
+    
+    
+  <div id="total">
+    <p> Your Total (plus tax) Is: </p>
+    <p id="totalbox"></p>
+  </div>
+    
+    <script src="script.js"> </script>
+
+</body>
+</html>
